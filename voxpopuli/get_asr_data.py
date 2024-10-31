@@ -13,7 +13,8 @@ from collections import defaultdict
 
 import torch
 import torchaudio
-from torchaudio.datasets.utils import download_url
+from torchvision.datasets.utils import download_url
+# from torch.hub import download_url_to_file as download_url
 
 from voxpopuli import ASR_LANGUAGES, ASR_ACCENTED_LANGUAGES, DOWNLOAD_BASE_URL
 from voxpopuli.utils import multiprocess_run

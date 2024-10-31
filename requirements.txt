@@ -3,3 +3,4 @@ torchaudio
 num2words
 edlib
 editdistance
+torchvision
